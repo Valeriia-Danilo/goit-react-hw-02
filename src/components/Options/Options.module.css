@@ -1,0 +1,32 @@
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.button {
+  background-color: #6a1b9a;
+  background-image: linear-gradient(to bottom, #8e24aa, #6a1b9a);
+  border: 1px solid #7623a6;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-image: linear-gradient(to bottom, #7b1fa2, #4a148c);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button:active {
+  background-image: linear-gradient(to bottom, #4a148c, #38006b);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}

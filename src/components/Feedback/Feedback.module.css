@@ -1,0 +1,21 @@
+.feedbackCantainer {
+  padding: 24px;
+  font-size: 20px;
+}
+
+.good {
+  color: #19481c;
+}
+
+.neutral {
+  color: #8f962b;
+}
+
+.bad {
+  color: #771212;
+}
+
+.positive {
+  color: #000000;
+  font-weight: bold;
+}

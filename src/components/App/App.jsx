@@ -44,7 +44,7 @@ const resetClicks = () => {
   });
 };
   
-  const positivePercent = Math.round(((comments.good + comments.neutral) / totalFeedback) * 100);
+  const positivePercent = Math.round((comments.good / totalFeedback) * 100);
   
 
   return (

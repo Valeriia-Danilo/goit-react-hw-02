@@ -44,6 +44,8 @@ const resetClicks = () => {
   });
 };
   
+  const positivePercent = Math.round(((comments.good + comments.neutral) / totalFeedback) * 100);
+  
 
   return (
     <div className={css.taskContainer}>
@@ -52,7 +54,7 @@ const resetClicks = () => {
       {totalFeedback === 0 ? (
         <Notification/>
       ) : (
-        <Feedback comments={comments} totalFeedback={totalFeedback}/>)}
+          <Feedback comments={comments} percent={positivePercent} />)}
     </div>
 
  ) 
